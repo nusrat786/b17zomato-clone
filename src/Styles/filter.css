@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: Poppins;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    width: 100%;
+  }
+  .filtercontent{
+      width: 100%;
+      border: 1px solid #7487b1;
+      margin: 0 auto;
+      padding-bottom: 20px;
+      background-color: #fbfbfb;
+      
+    }
+  .filterheading{
+      
+      font-size: 23px;
+      font-weight: bold;
+      line-height: 1.53;
+      text-align: left;
+      color: #192f60;
+      margin-left: 3%;
+      margin-bottom: 15px;
+      
+    }
+    .main_content{
+        width: 80%;
+        margin: 30px auto;
+        /* border: 1px solid pink; */
+        text-align: center;
+  
+    }
+  
+  .filter_block{
+      width: 95%;
+      margin: 0 auto;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.20);
+      background-color: #ffffff;
+      padding: 10px 10px 10px 15px;
+      padding-bottom: 20px;
+      border-radius: 5px;
+      line-height: 1.5;
+      text-align: left;
+      
+    }
+  
+  .filteritem{
+      width: 95%;
+      margin: 0 auto;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.20);
+      background-color: #ffffff;
+      margin-bottom: 20px;
+      padding: 15px;
+      text-align: center;
+      border-radius: 5px;
+      
+    }
+    
+    .filters{
+      font-size: 15px;
+      font-weight: 600;
+      color: #192f60;
+     }
+    .location{
+      
+      font-size: 14px;
+      font-weight: normal;
+      color: #192f60;
+      margin-bottom: 3px;
+    }
+    .location-select{
+      width: 90%;
+      height: 22px;
+      border-radius: 3px;
+      border: solid 1px #8c96ab;
+      color: #8c96ab;
+      font-size: 13px;
+      font-weight: normal;
+      /* line-height: 1.5; */
+      text-align: left;
+      
+    }
+  
+   
+  
+    .cuisine{
+      font-size: 14px;
+      font-weight: normal;
+      color: #192f60;
+    }
+    .cuisine-types{
+      font-size: 13px;
+      font-weight: normal;
+      color: #8c96ab;
+    }
+  
+    .cuisine-types input[type="checkbox"]{
+      width: 12px;
+      height: 12px;
+      border-radius: 1.5px;
+      border: solid 1.5px #3a5075;
+      margin-right: 5px;
+  
+    }
+  
+    .cost{
+       font-size: 14px;
+        font-weight: normal;
+        color: #192f60;
+    }
+    .item_cost{
+      
+      font-size: 13px;
+      font-weight: normal;
+       color: #8c96ab;
+    }
+    .item_cost input[type="radio"]{
+    width: 12px;
+    height: 12px;
+    border-radius: 9px;
+    border: solid 1.5px #3a5075;
+    margin: 3px;
+  
+    }
+    
+    .sort{
+      
+    font-size: 14px;
+    /* font-weight: 600; */
+    font-weight: normal;
+    
+    color: #192f60;
+  
+    }
+    .sort_item{
+      
+      font-size: 13px;
+      font-weight: normal;
+      /* line-height: 1.5; */
+      text-align: left;
+      color: #8c96ab;
+    }
+    .sort_item input[type="radio"]{
+      width: 12px;
+    height: 12px;
+    border-radius: 9px;
+    border: solid 1.5px #3a5075;
+    margin-right: 5px;
+  
+    }
+    .item_list{
+        margin-top: 10px;
+        
+    }
+   
+  .item1{
+      display: inline-block;
+      width: 23%;
+     
+  }
+  .item1 img{
+      width: 100%;
+      height: 90px;
+      border-radius: 20px;
+  
+  }
+  
+  .item2{
+      display: inline-block;
+      width: 72%;
+      vertical-align: top;
+      padding: 8px;
+      margin-top: 10px;
+  }
+  .item3{
+      display: inline-block;
+      width: 30%;
+      
+  }
+  .item4{
+      display: inline-block;
+      width: 60%;
+      vertical-align: top;
+      
+  }
+  hr{
+    border: solid 1px #dedfe5; margin: 2%;
+  }
+  .filteritem_heading{
+      
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+    color: #192f60;
+  }
+  .filteritem_subheading{
+      
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
+    color: #192f60;
+  }
+  .item_info{
+      
+      font-size: 12px;
+      font-weight: normal;
+      line-height: 1.5;
+      text-align: left;
+      color: #636f88;
+  }
+  
+  .pagination_part{
+    text-align: center;
+    
+  }
+  .pagination_item{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    border: solid 1px #8c96ab;
+    background-color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #8c96ab;
+    margin: 3px;
+  
+    
+  }
+  .pagination_item:hover{
+    background-color: #8c96ab;
+    color: black;
+  }
+
+  .no-records{
+      color: red;
+      font-size: 30px;
+      font-family: cursive;
+      text-align: center;
+    }
+  
+  
+  
+    

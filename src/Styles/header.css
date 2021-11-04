@@ -1,0 +1,49 @@
+.header{
+      background-color: #ce0505;;
+      height: 50px;
+      padding: 3px 100px;
+      
+    }
+    .headerlogo{
+      display: inline-block;
+      width: 43px;
+      height: 43px;
+      border-radius: 50%;
+      background-color: #ffffff;
+      font-size: 27px;
+      font-weight: 600;
+      line-height: 1.52;
+      text-align: center;
+      color: #eb2929;
+      cursor: pointer;
+  
+    }
+    .loginblock{
+      
+      float: right;
+      margin-top: 8px;
+    }
+    .headerlogin{
+    display: inline-block;
+   cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.56;
+    text-align: left;
+    color: #ffffff;
+    margin-right: 25px;
+  
+    }
+    .headeraccount{
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 3px;
+      border: solid 1px #ffffff;
+     font-size: 14px;
+     font-weight: 500;
+    line-height: 1.56;
+    text-align: left;
+    color: #ffffff;
+    cursor: pointer;
+  
+    }

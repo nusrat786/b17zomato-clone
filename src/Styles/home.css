@@ -1,0 +1,222 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+  }
+  html {
+    font-size: 14px;
+  }
+  
+  .banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+  }
+  
+  
+  .logo {
+    
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #ffffff;
+    line-height: 55px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #eb2929;
+    padding: 10px;
+  }
+  .wallpaper_heading {
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+  
+  .search_block {
+    display: flex;
+  
+    /* align-items: center; */
+    justify-content: center;
+  }
+  
+  .dd {
+    width: 245px !important;
+  
+    margin-right: 20px;
+  }
+  .input-icon {
+    padding-left: 38px !important;
+  }
+  .o-zero {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .search-icon {
+    position: absolute;
+    width: 38px;
+    height: 100%;
+    padding-left: 7px;
+  
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-bar {
+    width: 400px;
+    outline: none;
+    border: none;
+    padding: 6px 13px;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 1.53;
+    text-align: left;
+    color: #636f88;
+  }
+  .fa,
+  .fas {
+    font-size: 13px;
+    font-weight: 900;
+  }
+  
+  .heading {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.53;
+    text-align: left;
+    color: #192f60;
+  }
+  .sub_heading {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left;
+    color: #8c96ab;
+  }
+  .item {
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    /* box-shadow: 0 3px 6px 0 red; */
+    height: 160px;
+  
+    /* padding: 10px; */
+  }
+  .item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .item_heading {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+    color: #192f60;
+  }
+  .item_subheading {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: left;
+    color: #8c96ab;
+  }
+
+  li {
+    list-style: none;
+    background-color: lightgray;
+    background-image: linear-gradient(90deg, red 20px, lightgray 10px);
+    padding: 10px 15px 10px 25px;
+    border: 1px solid #CCC;
+    box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5);
+    margin-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#query {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 19px;
+    padding: 5px;
+    font-family: calibri light;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    background-color: lightgray;
+    color: gray;
+    padding-left: 29px;
+}
+
+#notebooks {
+    position: absolute;
+    left: 38%;
+    width: 350px;
+    border-radius: 5px;
+    max-height: 450px;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 0;
+    max-height: 390px;
+    overflow-y: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 5px 0 5px;
+    border-left: none;
+    border-right: none;
+}
+
+#notebooks span {
+    display: block;
+    position: absolute;
+    background: #FFD32E;
+    bottom: -35px;
+    left: -1px;
+    width: 360px;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: inset 1px 1px rgba(255, 255, 255, 0.5);
+}
+  
+  @media only screen and (max-width: 600px) {
+    .wallpaper_heading {
+      font-size: 18px;
+    }
+    .banner {
+      width: 90%;
+    }
+  
+    .header {
+      padding: 3px 10px;
+    }
+    .search_block {
+      flex-direction: column;
+    }
+  
+    .search-bar {
+      width: 100%;
+    }
+    .dd {
+      width: 100%;
+  
+      margin-right: 0px;
+      margin-bottom: 10px;
+    }
+  }
+  
