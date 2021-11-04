@@ -115,14 +115,14 @@ class Filter extends React.Component {
 
   getLocations = async () => {
     const { data } = await axios.get(
-      "https://peaceful-mesa-49989.herokuapp.com/locations"
+      "https://nus-zom-api.herokuapp.com/locations"
     );
     this.setState({ locations: data.locations });
   };
 
   getMealType = async (mealtypeId) => {
     const { data } = await axios.get(
-      "https://peaceful-mesa-49989.herokuapp.com/mealtypes"
+      "https://nus-zom-api.herokuapp.com/mealtypes"
     );
     let meal = data.mealtypes.find((x) => x.meal_type === parseInt(mealtypeId));
     this.setState({ mealname: meal ? meal.name : "N/A" });
@@ -149,7 +149,7 @@ class Filter extends React.Component {
       page,
     };
 
-    const url = "https://peaceful-mesa-49989.herokuapp.com/filter";
+    const url = "https://nus-zom-api.herokuapp.com/filter";
     const { data } = await axios.post(url, filterObj);
 
     this.setState({

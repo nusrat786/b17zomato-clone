@@ -41,7 +41,7 @@ class Details extends React.Component {
     const qs = queryString.parse(this.props.location.search);
     const { restaurant } = qs;
     axios({
-      url: `https://peaceful-mesa-49989.herokuapp.com/restaurant/${restaurant}`,
+      url: `https://nus-zom-api.herokuapp.com/restaurant/${restaurant}`,
       method: "GET",
       headers: { "Content-Type": "application/json" },
     })
@@ -57,7 +57,7 @@ class Details extends React.Component {
   handleOrder = () => {
     const { restId } = this.state;
     axios({
-      url: `https://peaceful-mesa-49989.herokuapp.com/menuitems/${restId}`,
+      url: `https://nus-zom-api.herokuapp.com/menuitems/${restId}`,
       method: "GET",
       headers: { "Content-Type": "application/json" },
     })
@@ -134,7 +134,7 @@ class Details extends React.Component {
   };
 
   getData = (data) => {
-    return fetch(`https://peaceful-mesa-49989.herokuapp.com/payment`, {
+    return fetch(`https://nus-zom-api.herokuapp.com/payment`, {
       method: "POST",
       headers: {
         Accept: "application/json",
