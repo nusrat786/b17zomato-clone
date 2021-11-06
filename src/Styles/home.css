@@ -156,7 +156,7 @@
     font-family: calibri light;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 3px;
-    background-color: lightgray;
+    /* background-color: lightgray; */
     color: gray;
     padding-left: 29px;
 }
