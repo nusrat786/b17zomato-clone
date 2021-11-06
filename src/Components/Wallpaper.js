@@ -104,8 +104,8 @@ class Wallpaper extends React.Component {
                   placeholder="Search for restaurants"
                   onChange={this.handleChange}
                 />
+                {this.renderSuggestions()}
               </div>
-              {this.renderSuggestions()}
             </div>
           </div>
         </div>
