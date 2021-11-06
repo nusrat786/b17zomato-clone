@@ -160,6 +160,9 @@
     color: gray;
     padding-left: 29px;
 }
+#query li{
+  background-color: #ffffff;
+}
 
 #notebooks {
     position: absolute;
