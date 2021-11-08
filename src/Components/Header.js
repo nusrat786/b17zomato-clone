@@ -68,7 +68,6 @@ class Header extends React.Component {
             <div className="headeraccount">Create an account</div>
           </div>
         )}
-
         <Modal isOpen={isLoginModalIsOpen} style={customStyles}>
           <div>
             <GoogleLogin
