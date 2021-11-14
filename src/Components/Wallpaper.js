@@ -50,7 +50,7 @@ class Wallpaper extends React.Component {
 
     if (suggestions.length == 0 && searchText == "") {
       return (
-        <ul>
+        <ul className="suggestions">
           <li>No Search Results Found</li>
         </ul>
       );

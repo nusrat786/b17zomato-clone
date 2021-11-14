@@ -133,11 +133,10 @@
     text-align: left;
     color: #8c96ab;
   }
-
-  li {
+  .suggestions li {
     list-style: none;
-    
-    background-image: linear-gradient(90deg, red 20px, lightgray 10px);
+   
+    background-image: linear-gradient(90deg, red 20px, #f8f9fa 10px);
     padding: 10px 15px 10px 25px;
     border: 1px solid #CCC;
     box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5);
@@ -147,6 +146,8 @@
     cursor: pointer;
     border-radius: 3px;
 }
+
+  
 
 #query {
     width: 100%;
@@ -168,8 +169,7 @@
     border-radius: 5px;
     max-height: 450px;
 }
-
-ul {
+.suggestions {
     margin: 0 auto;
     padding: 0;
     max-height: 390px;
@@ -179,6 +179,8 @@ ul {
     border-left: none;
     border-right: none;
 }
+
+
 
 #notebooks span {
     display: block;
