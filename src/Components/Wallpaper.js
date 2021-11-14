@@ -50,13 +50,13 @@ class Wallpaper extends React.Component {
 
     if (suggestions.length == 0 && searchText == "") {
       return (
-        <ul className="suggestions">
+        <ul>
           <li>No Search Results Found</li>
         </ul>
       );
     }
     return (
-      <ul>
+      <ul className="suggestions">
         {suggestions.map((item, index) => (
           <li key={index} onClick={() => this.selectedText(item)}>{`${
             item.name
@@ -95,7 +95,7 @@ class Wallpaper extends React.Component {
                 </select>
               </div>
 
-              <div className="d-flex position-relative col-sm-12 col-md-8 mt-3">
+              <div className="  position-relative col-sm-12 col-md-8 mt-3 ">
                 <span className="fas fa-search search-icon" />
 
                 <input

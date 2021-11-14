@@ -68,8 +68,8 @@
     width: 38px;
     height: 100%;
     padding-left: 7px;
-  
-    display: flex !important;
+    padding-top: 12px;
+    
     justify-content: center;
     align-items: center;
   }
@@ -133,6 +133,8 @@
     text-align: left;
     color: #8c96ab;
   }
+ 
+
   .suggestions li {
     list-style: none;
    
@@ -147,8 +149,6 @@
     border-radius: 3px;
 }
 
-  
-
 #query {
     width: 100%;
     box-sizing: border-box;
@@ -157,10 +157,10 @@
     font-family: calibri light;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 3px;
+    
     color: gray;
     padding-left: 29px;
 }
-
 
 #notebooks {
     position: absolute;
@@ -169,6 +169,7 @@
     border-radius: 5px;
     max-height: 450px;
 }
+
 .suggestions {
     margin: 0 auto;
     padding: 0;
@@ -179,8 +180,6 @@
     border-left: none;
     border-right: none;
 }
-
-
 
 #notebooks span {
     display: block;
@@ -204,9 +203,7 @@
       width: 90%;
     }
   
-    .header {
-      padding: 3px 10px;
-    }
+    
     .search_block {
       flex-direction: column;
     }
